@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@405&display=swap');
+
+body {
+    margin: 20px;
+    font-family: sans-serif; /* Fonte padrão para o corpo do texto */
+}
+
+img {
+    width: 700px;
+    height: 600px;
+    display: block;
+    margin: 0 auto; /* Centraliza a imagem */
+}
+
+main h1 {
+    font-size: 40px;
+    font-family: "Kalnia Glaze", serif;
+    font-weight: 405;
+    text-align: center;
+}
+
+h2 {
+    padding: 20px 0;
+    font-size: 30px;
+    font-family: "Kalnia Glaze", serif;
+    font-weight: 405;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 16px;
+    text-align: justify;
+}
+
+#legenda {
+    font-size: 10px;
+    text-align: center;
+    font-style: italic;
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 22px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 16px;
+    }
+    p {
+        font-size: 13px;
+    }
+    img {
+        width: 100%; 
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    p {
+        font-size: 16px;
+    }
+    img {
+        width: 100%; 
+        height: auto;
+    }
+}
+
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 32px;
+    }
+    h2 {
+        font-size: 28px;
+    }
+    h3 {
+        font-size: 24px;
+    }
+    p {
+        font-size: 18px;
+    }
+    img {
+        width: 100%; 
+        height: auto;
+    }
+}
